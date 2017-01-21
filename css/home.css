@@ -11,7 +11,7 @@
 
 .man {
 	width: calc(100vw - 30px);
-	height: 100vh;
+	height: calc(100vh - 100px);
 	margin: 15px auto;
 	background-size: contain;
 	background-repeat: no-repeat;

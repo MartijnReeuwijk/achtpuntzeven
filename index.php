@@ -23,9 +23,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="image/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="image/fav/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/fav/favicon-16x16.png">
-    <link rel="manifest" href="image/manifest.json">
+    <link rel="manifest" href="image/fav/manifest.json">
     <meta name="msapplication-TileColor" content="#EAEFF3">
-    <meta name="msapplication-TileImage" content="image/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="image/fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#EAEFF3">
 
     <!-- javascript -->
