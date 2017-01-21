@@ -1,0 +1,8 @@
+.man {
+	width: calc(100vw - 30px);
+	height: 100vh;
+	margin: 15px auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../image/beast.png");
+}

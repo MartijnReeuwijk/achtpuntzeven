@@ -5,10 +5,9 @@
 
 </section>
 
-
 	<ul>
-		<li>Aanmelden</li>
-		<li>Inloggen</li>
-		<li>Vraag later</li>
+		<a href="page/aanmelden"><li>Aanmelden</li></a>
+		<a href="page/inloggen"><li>Inloggen</li></a>
+		<a href="page/home"><li>Vraag later</li></a>
 	</ul>
 </section>

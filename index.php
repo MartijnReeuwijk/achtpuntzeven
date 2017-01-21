@@ -22,6 +22,8 @@
     <script type="text/javascript" src="js/javascript.js"></script>
 
     <!-- css -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <!-- <link rel="stylesheet" href="css/jouwbestand.css" media="screen" title="no title"> -->
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
@@ -30,13 +32,37 @@
 
 </head>
 <body>
-    <main>
-        <?php
-        include 'page/menu/menu.php';
-        include 'page/menu/header.php';
-        include 'page/login.php';
+    <?php
+    include 'page/menu/menu.php';
+    include 'page/menu/header.php';
+    ?>
+    <main class="contain">
 
+        <?php
+        include 'page/login.php';
         ?>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('nav ul a').click(function(){
+                var page = $(this).attr('href');
+                $('.contain').load(page +'.php');
+                return false;
+
+            });
+
+            // dit kan er een zijn
+            $('ul a').click(function(){
+                var page = $(this).attr('href');
+                $('.contain').load(page +'.php');
+                return false;
+
+            });
+        });
+
+        </script>
+
     </main>
 </body>
 </html>

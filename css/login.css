@@ -1,6 +1,6 @@
 .slider {
 	width: calc(100% - 30px);
-	height: 300px;
+	height: 250px;
 
 	margin: 15px auto;
 	left: 0;
@@ -8,10 +8,17 @@
 
 	background-color: red;
 }
+
 .login {
 	height: calc(100vh - 60px);
+
 }
-.login ul li {
+
+.login ul a {
+	text-decoration: none;
+}
+
+.login ul a li {
 	width: calc(100% - 30px);
 	height: 50px;
 	background-color: #383838;
@@ -25,10 +32,45 @@
 	left: 0;
 	right: 0;
 }
-.login ul li:nth-of-type(2) {
+
+.login ul a:nth-of-type(2) li {
 	background-color: #32B395;
 }
-.login ul li:nth-of-type(3) {
+
+.login ul a:nth-of-type(3) li {
 	color: black;
 	background-color: #EAEFF3;
+}
+
+/*login form*/
+.inloggen {
+	width: calc(100vw - 30px);
+	margin: 15px auto;
+	padding: 15px 0 ;
+	background-color: #383838;
+}
+
+.inloggen div {
+	width: calc(100% - 30px);
+	height: 25px;
+	margin: 15px;
+
+}
+
+.inloggen div input {
+width: 100%;
+	height: 100%;
+
+	background:white;
+border:none;
+}
+.inloggen .send {
+	width: calc(100% - 30px);
+	height: 50px;
+	border:none;
+	background-color: #32B395;
+	color: white;
+	font-size: 22px;
+	position: absolute;
+	bottom: 85px;
 }

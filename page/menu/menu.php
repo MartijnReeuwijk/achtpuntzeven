@@ -1,8 +1,12 @@
 <nav>
 	<ul>
-	<a href="#"><li>Agenda</li></a>
-	<a href="#"><li>Grafiek</li></a>
-	<a href="#"><li>Account</li></a>
-	<a href="#"><li>Doel</li></a>
+
+	<a href="page/agenda"><li></li></a>
+
+	<a href="page/grafiek"><li></li></a>
+
+	<a href="page/login"><li></li></a>
+
+	<a href="page/doel"><li></li></a>
 	</ul>
 </nav>

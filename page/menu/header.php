@@ -2,7 +2,7 @@
 <ul>
 	<li><</li>
 	<li>Account</li>
-	<li></li>
+	<a href="page/home"><li></li></a>
 </ul>
 
 </header>
